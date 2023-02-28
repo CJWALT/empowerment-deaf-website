@@ -4,7 +4,7 @@ const Button = ({buttonColor, buttonLay, children}) => {
 
 
     const btnColor = ['orange', 'outline']; 
-    const btnLayout = ['relative', 'absolute']
+    const btnLayout = ['relative', 'absolute', 'reduce_padding']
 
 
     const checkButtonColor = btnColor.includes(buttonColor) ? buttonColor : null

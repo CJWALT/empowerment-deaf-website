@@ -1,15 +1,16 @@
 import React from 'react'
-import Header_hero from '../components/Header_hero'
+// import Header_hero from '../components/Header_hero'
 import MisVis from '../components/MisVis'
 import Needs from '../components/Needs'
-// import Hero from '../components/Hero'
+import Hero from '../components/Hero'
 
 const Home = () => {
   return (
     <>
-        home section
+  
 
-        <Header_hero/>
+        {/* <Header_hero/> */}
+        <Hero />
         <MisVis/>
         <Needs/>
         

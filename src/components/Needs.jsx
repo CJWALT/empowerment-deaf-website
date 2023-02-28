@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from './Button'
 
 const Needs = () => {
@@ -11,44 +12,46 @@ const Needs = () => {
           
 
           <div className="we-need_wrap">
-          <span className="back-sqr"></span>
+            <span className="back-sqr"></span>
               <article className="need-item">
                 <span className="white-sqr util-left"></span>
                 <img src="./img/needImg.png" alt="need one" className="need-img" />
-                <span className="flt-sw"></span>
+                <span className="flt-sqr sqr-db"></span>
                 <div className="para-btn-wrap">
                   <p className="need-para">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora officia illum perspiciatis.
                   </p>
-                  <Button children="Donate" buttonColor="orange"/>
+                  <Link to='/donate' className='btn dnte-link'> Donate </Link>
 
                 </div>
               
               </article>
               <article className="need-item">
-                <span className="white-sqr .left-center_util"></span>
+                <span className="white-sqr left-center_util"></span>
                 <img src="./img/needImg.png" alt="need one" className="need-img" />
-                <span className="flt-sw"></span>
+                <span className="flt-sqr sqr-og"></span>
                 <div className="para-btn-wrap">
                   <p className="need-para">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora officia illum perspiciatis.
                   </p>
-                  <Button children="Donate" buttonColor="orange"/>
+                  <Link to='/donate' className='btn dnte-link'> Donate </Link>
 
                 </div>
               
               </article>
               <article className="need-item">
-                <span className="white-sqr"></span>
+                <span className="white-sqr util-right"></span>
                 <img src="./img/needImg.png" alt="need one" className="need-img" />
-                <span className="flt-sw"></span>
-                <div className="para-btn-wrap">
-                  <p className="need-para">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora officia illum perspiciatis.
-                  </p>
-                  <Button children="Donate" buttonColor="orange"/>
+              <span className="flt-sqr sqr-gn"></span>
+                
+                  <div className="para-btn-wrap">
+                    <p className="need-para">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora officia illum perspiciatis.
+                    </p>
+                    <Link to='/donate' className='btn dnte-link'> Donate </Link>
 
-                </div>
+                  </div>
+                
               
               </article>
 

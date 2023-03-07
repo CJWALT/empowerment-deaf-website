@@ -17,7 +17,9 @@ const Hero = () => {
                 <Button children="Donate Now!" buttonColor="orange" buttonLay='reduce_padding'/>
               </div>
               <div className="hero_img">
-                <img src="./img/hero_img.png" alt="hero image"/>
+                <img src="./img/needImg.png" alt="hero" className='hero-display'/>
+                <span className="flt-rect"></span>
+                <span className="hero-back-sqr"></span>
               </div>
             </div>
           </div>

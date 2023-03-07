@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from './Button'
 
 const Header = () => {
@@ -8,12 +9,12 @@ const Header = () => {
       <div className="container">
             <div className="header_wrap">
                 <div className="header_img">
-                    <img src="./img/empowermentdeaf.png" alt="empowerment deaf logo" />
+                   <Link to='/'> <img src="./img/empowermentdeaf.png" alt="empowerment deaf logo" /> </Link>
                 </div>
                 <div className="nav-btn">
                     <ul className="nav">
                         <li className="nav-list">
-                            <a href="#" className="nav_link">Home</a>
+                            <Link to='/' className="nav_link">Home</Link>
                         </li>
                         <li className="nav-list">
                             <a href="#" className="nav_link">About</a>
@@ -22,7 +23,7 @@ const Header = () => {
                             <a href="#" className="nav_link">Contact</a>
                         </li>
                         <li className="nav-list">
-                            <a href="#" className="nav_link">Blog</a>
+                            <Link to='/blog' className="nav_link">Blog</Link>
                         </li>
                     </ul>
 

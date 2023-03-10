@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Our_team = () => {
+const OurTeam = () => {
   return (
     <>
         <div className="container">
@@ -10,26 +10,26 @@ const Our_team = () => {
                 <div className="team-wrap">
                     <article className="team-one">
                         <span className="team-backsqr"></span>
-                        <img src="./img/team.png" alt="team members" />
+                        <img src="./img/team-two.png" alt="team members" className="team-img" />
                         <h6 className="team-name">Agnes Frances</h6>
                         <small className="team-post">Treasurer</small>
                     </article>
                     <article className="team-one">
+                        <span className="team-backsqr team-backsqr_blue"></span>
+                        <img src="./img/team-two.png" alt="team members" className="team-img" />
+                        <h6 className="team-name">Jane Doe</h6>
+                        <small className="team-post">P.R.O</small>
+                    </article>
+                    <article className="team-one">
                         <span className="team-backsqr"></span>
-                        <img src="./img/team.png" alt="team members" />
+                        <img src="./img/team-two.png" alt="team members" className="team-img" />
                         <h6 className="team-name">Agnes Frances</h6>
                         <small className="team-post">Treasurer</small>
                     </article>
                     <article className="team-one">
-                        <span className="team-backsqr"></span>
-                        <img src="./img/team.png" alt="team members" />
-                        <h6 className="team-name">Agnes Frances</h6>
-                        <small className="team-post">Treasurer</small>
-                    </article>
-                    <article className="team-one">
-                        <span className="team-backsqr"></span>
-                        <img src="./img/team.png" alt="team members" />
-                        <h6 className="team-name">Agnes Frances</h6>
+                        <span className="team-backsqr team-backsqr_blue"></span>
+                        <img src="./img/team-two.png" alt="team members" className="team-img" />
+                        <h6 className="team-name">Mike Frances</h6>
                         <small className="team-post">Treasurer</small>
                     </article>
                 </div>
@@ -39,4 +39,4 @@ const Our_team = () => {
   )
 }
 
-export default Our_team
+export default OurTeam

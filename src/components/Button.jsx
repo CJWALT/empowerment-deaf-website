@@ -3,7 +3,7 @@ import React from 'react'
 const Button = ({buttonColor, buttonLay, children}) => {
 
 
-    const btnColor = ['orange', 'outline']; 
+    const btnColor = ['orange', 'outline', 'bg-white']; 
     const btnLayout = ['relative', 'absolute', 'reduce_padding']
 
 

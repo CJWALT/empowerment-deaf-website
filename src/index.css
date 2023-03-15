@@ -14,23 +14,23 @@
   --btn-padding:12px 54px; 
   --font-family:'Montserrat', sans-serif; 
   --paginate-num:'Poppins', sans-serif;
-  --big-title:58px; 
-  --nav-font-size:22px; 
-  --btn-font-size:32px; 
-  --small-para:24px; 
+  --big-title:3.64rem; 
+  --nav-font-size:1.38rem; 
+  --btn-font-size:2rem; 
+  --small-para:1.5rem; 
   --btn-border-rad:24px;
   --btn-bg:#f77106; 
-  --sub-heading-font-size:32px;
-  --section-heading-font-size:52px; 
+  --sub-heading-font-size:2rem;
+  --section-heading-font-size:3.25rem; 
   --sub-heading-font-color:#101B8F;
   --img-float-sqr:#649300;
   --medium-font-weight:600; 
-  --para-font-size:20px; 
-  --small-para-font-size:16px; 
-  --medium-para-font-size:19px;
+  --para-font-size:1.25rem; 
+  --small-para-font-size:1rem; 
+  --medium-para-font-size:1.19rem;
   --para-weight:400; 
-  --motto-font-size:22px;
-  --team-font-size:24px; 
+  --motto-font-size:1.38rem;
+  --team-font-size:1.5rem; 
   --subscribe-button-padding:5px 16px;
 }
 
@@ -65,32 +65,53 @@ li{
   list-style: none;
   }
 
+  /* button styling starts*/
+
 .btn{ 
   cursor:pointer;
   font-size:var(--btn-font-size);
   font-weight:var(--bold-font-weight); 
   color:#fff;
   border-radius: var(--btn-border-rad);
+  border:none;
 }
 .btn:hover{
   background:white;
   color:#000;
 }
-/* button bg color orange */
+/* button bgcolor orange */
 .orange{ 
   padding:var(--btn-padding);
-  border:none; 
   background:var(--btn-bg)
 }
+
+/* button bgcolor white */
+.bg-white{
+  background:white;
+  color:var(--btn-bg);
+  font-size:1rem;
+  padding:6px 30px;
+}
+
+.absolute{ 
+  position:absolute; 
+  top:-2rem;
+  right:0;
+}
+
 
 .reduce_padding{ 
   padding:12px 28px;
 }
+
+
+/* button styling ends */
 .header_hero{ 
   height:900px; 
   background:var(--bg-grad); 
   position:relative;
 }
+
 
 header{ 
   position:relative; 
@@ -481,11 +502,11 @@ h2.team-heading{
 
 .team-backsqr{ 
   position:absolute; 
-  height:200px;
+  height:12.5rem;
   top:-3%; 
   left:-4%; 
   z-index:-1;  
-  width:190px; 
+  width:6.25rem; 
   border:2px solid var(--btn-bg);
 }
 
@@ -516,11 +537,96 @@ footer{
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .footer-wrap{ 
+  position:relative;
   display:flex; 
   flex-direction:row; 
   justify-content:space-between;
-  gap:30px;
+  gap:45px;
+  padding:70px 0;
 }
+.footer-icons{ 
+  display:flex; 
+  flex-direction:row; 
+  gap:25px; 
+  margin-top:30px;
+  
+}
+.social-icons{ 
+  font-size:1.4rem;
+  color:#fff; 
+}
+.links-heading{ 
+ color:#fff; 
+ font-size:var(--motto-font-size);
+ font-weight:var(--medium-font-weight); 
+ font-family:var(--font-family);
+ margin-bottom:10px;  
+}
+.footer-link{ 
+  margin-bottom:8px;
+}
+.footer-link:last-child{ 
+  margin-bottom:0;
+}
+.footer-link_list{
+  color:#fff; 
+  font-size:var(--para-font-size);
+  font-weight:var(--para-weight);
+}
+
+/* .footer-contact_form{ 
+  border:1px solid red;
+} */
+
+
+.form-para{ 
+  color:#fff;
+  font-size:var(--para-font-size); 
+  font-weight:var(--medium-font-weight);
+  margin-bottom:16px;
+}
+
+form{ 
+  display:block;
+}
+
+input, textarea{ 
+  border:none;
+  font-size:1rem;
+  color:#fff;
+}
+
+.form-field::placeholder{ 
+  color:#fff; 
+  font-size:1rem;
+  font-family:var(--font-family);
+}
+
+.form-field{
+  display:block;
+  width:280px;
+  border-bottom:1px solid #fff; 
+  background:none;
+  resize: none;
+  margin-bottom:15px;
+}
+
+
+.footer-addy > small{ 
+  display:block;
+  color:#fff;
+  margin-bottom:20px;
+  font-size:var(--small-para-font-size);
+
+}
+.org_phone, org_email{ 
+  font-weight:var(--para-weight)
+}
+.org_addy{
+  font-weight:var(--medium-font-weight);
+}
+
+
 
 
 
@@ -566,8 +672,29 @@ footer{
     height:50px; 
     width:40px;
   }
+  /* p.need-para{ 
+    font-size:.6rem;
+  } */
   .blog-wrap{ 
     flex-wrap:nowrap;
+  }
+
+  section.our-team{
+    padding:40px 70px;
+  }
+  .team-wrap{ 
+    grid-template-columns:repeat(2, 1fr);
+    gap:6.75rem;
+  }
+  span.team-backsqr{ 
+    height:20.81rem; 
+    width:20.62rem
+  }
+  h6.team-name{ 
+    font-size:var(--sub-heading-font-size)
+  }
+  .footer-wrap{ 
+    flex-wrap:wrap;
   }
 }
 
@@ -640,5 +767,29 @@ footer{
     right:-6%; 
     height:90px; 
     width:80px;
+  }
+
+  section.our-team{ 
+    padding:85px 70px;
+  }
+  .team-wrap{ 
+    grid-template-columns: 1fr;
+  }
+  span.team-backsqr{ 
+    height:25.81rem; 
+    width:26rem;
+  }
+  h6.team-name{ 
+    font-size:var(--section-heading-font-size)
+  }
+  small.team-post{ 
+    font-size:var(--team-font-size)
+  }
+
+  .footer-wrap{
+    flex-direction: column;
+  }
+  .footer-logo-addy{
+    width:60%;
   }
 }

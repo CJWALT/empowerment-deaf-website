@@ -28,6 +28,7 @@ const Footer = () => {
                         <li className="footer-link"><a href ="#" className='footer-link_list'>Blog</a></li>
                         <li className="footer-link"><a href ="#" className='footer-link_list'>Our Needs</a></li>
                     </ul>
+                    
                 </div>
                 <div className="footer-contact_form">
                     <p className="form-para">
@@ -43,7 +44,7 @@ const Footer = () => {
 
                 <div className="footer-addy">
                         <small className="org_phone">
-                           <FaPhoneAlt /> +44 7423 323 919
+                           <FaPhoneAlt /> <a href="tel:+44-7423-323-919"> +44 7423 323 919</a>
                         </small>
                         <small className="org_email">
                             <MdEmail /> info@aedvp.uk
@@ -54,7 +55,7 @@ const Footer = () => {
                 </div>
                 <Button children="Donate" buttonColor="orange" buttonLay="absolute"/> 
             </div>
-        </div>
+      </div>
         
     </footer>
     </>

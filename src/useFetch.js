@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 
 const useFetch = (url) =>{ 
     const [appState, setAppState] = useState({
-        data: [], 
+        data: '',
         pending: true, 
         error :null
     })

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import useFetch from '../useFetch'
 import ReactPaginate from 'react-paginate'
 
+
 import {MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowLeft} from 'react-icons/md'
 
 
@@ -35,7 +36,7 @@ const Blog = () => {
       return ()=> window.removeEventListener('resize', handleResize, false);
   },[]);
 
-  const currentBlog = blogs.slice(currentPage * items_per_pg, (currentPage  + 1) * items_per_pg);
+    const currentBlog = blogs.slice(currentPage * items_per_pg, (currentPage  + 1) * items_per_pg);
   
   return (
   <>
@@ -48,15 +49,18 @@ const Blog = () => {
           { error && <div> {error} </div>}
 
           {pending && <div> <p> Loading </p> </div>}
-          { currentBlog.map((blog)=>(
+        {
+        blogs && currentBlog.map((blog)=>(
           <article className="blog-content" key={blog.id}>
-              <Link to='/blogs/:id' className='blog-link'>{blog.title}</Link>
+              <Link to={`/blog/${blog.id}`} className='blog-link'>{blog.title}</Link>
               <small className="date-posted">
                 {blog.datePosted}
               </small>
             </article>
-          ))}
-          </div>
+          ))
+        }
+      
+      </div>
 
           
         <div className="blog-paginate">

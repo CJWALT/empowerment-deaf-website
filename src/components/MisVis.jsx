@@ -5,7 +5,7 @@ const MisVis = () => {
     <>
       <div className="container">
         <section className="mis_vis_wrap">
-          <div className="mission">
+          <div className="mission" data-aos="fade-up">
             <h3 className="mis_vis-heading">
               OUR MISSION
             </h3>
@@ -18,7 +18,7 @@ const MisVis = () => {
               Lorem ipsum, dolor sit elit. Provident, autem porro mollitia, fugit soluta qui dolorum eveniet, laboriosam iusto officia perferendis magni ratione quod obcaecati? Neque rem esse, accusantium laudantium dolorem voluptatum provident commodi numquam veniam. Beatae odit, aliquid corporis doloribus optio error tenetur, ad excepturi repellendus exercitationem nesciunt. Temporibus?
             </p>
           </div>      
-          <div className="vis">
+          <div className="vis" data-aos="fade-zoom-in">
             <h3 className="mis_vis-heading">
               OUR VISION
             </h3>

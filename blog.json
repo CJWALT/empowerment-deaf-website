@@ -4,41 +4,72 @@
         {
             "id" : 1, 
             "title" : "Partnership Agreement between Action Foundation Common Initiative group(AFCIG) and AAEDVP", 
-            "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit"
+            "post": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eos aspernatur quos architecto consequuntur laudantium reprehenderit repudiandae incidunt dicta saepe in et voluptate, animi perspiciatis iure tempora debitis sapiente cupiditate magnam aliquam voluptatibus alias aut. Eos molestias nulla optio ad doloremque ipsa totam sapiente explicabo enim asperiores facilis culpa eligendi mollitia accusamus distinctio odit, quo quae earum ut consequuntur autem?",
+            "img":  [
+                "misson.png",
+                "misson.png",
+                "misson.png",
+                "misson.png"]
         } ,
     
         {
             "id": 2,
             "title": "International week of the deaf", 
             "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
-            "datePosted": "21st September 2022"
+            "datePosted": "21st September 2022",
+            "img":  [
+                "misson.png",
+                "misson.png"
+            ]
+            
         },
     
         {
             "id": 3,
             "title": "Zoe- Med peer educator sexual and reproductive health workshop", 
             "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
-            "datePosted": "21st September 2022"
+            "datePosted": "21st September 2022",
+            "img":[]
         },
         {
             "id": 4,
             "title": "Zoe- Med peer educator sexual and reproductive health workshop", 
             "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
-            "datePosted": "21st September 2022"
+            "datePosted": "21st September 2022",
+            "img": [
+                "misson.png"
+                ]
         },
         {
             "id": 5,
             "title": "Zoe- Med peer educator sexual and reproductive health workshop", 
             "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
-            "datePosted": "21st September 2022"
+            "datePosted": "21st September 2022",
+            "img":  ["misson.png", "misson.png"]
         },
         {
             "id": 6,
             "title": "Zoe- Med peer educator sexual and reproductive health workshop", 
             "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
-            "datePosted": "21st September 2022"
+            "datePosted": "21st September 2022",
+            "img":[]
+        },
+        {
+            "id": 7,
+            "title": "Zoe- Med peer educator sexual and reproductive health workshop", 
+            "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
+            "datePosted": "21st September 2022",
+            "img":  ["misson.png", "misson.png"]
+        },
+        {
+            "id": 8,
+            "title": "Zoe- Med peer educator sexual and reproductive health workshop", 
+            "post":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit",
+            "datePosted": "21st September 2022",
+            "img":[]
         }
 
     ]
 
 }
+
